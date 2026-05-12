@@ -1,0 +1,395 @@
+{
+  "groups": [
+    {
+      "id": "id-54d8a5a1-c344-492c-bf9f-b29ad9662303",
+      "x": -40,
+      "y": -110,
+      "width": 1150,
+      "height": 370,
+      "title": "Customer",
+      "type": "pool",
+      "category": "bpmn2"
+    },
+    {
+      "id": "id-ba446fe3-fc5a-468a-879f-636efa8ae458",
+      "x": -40,
+      "y": 280,
+      "width": 1150,
+      "height": 350,
+      "title": "Car Wash Machine",
+      "type": "pool",
+      "category": "bpmn2"
+    },
+    {
+      "id": "_c529c195-690b-472a-9bde-fa2776a44e6b",
+      "group": "id-54d8a5a1-c344-492c-bf9f-b29ad9662303",
+      "x": 0,
+      "y": 0,
+      "xPosition": 30,
+      "width": 1120,
+      "height": 370,
+      "type": "lane",
+      "category": "bpmn2",
+      "fill": "#f5fafc",
+      "headerFill": "#1395c9",
+      "headerColor": "#FFFFFF"
+    },
+    {
+      "id": "_bf50614d-40a6-450e-a101-85c440f9bde6",
+      "group": "id-ba446fe3-fc5a-468a-879f-636efa8ae458",
+      "x": 0,
+      "y": 0,
+      "xPosition": 30,
+      "width": 1120,
+      "height": 350,
+      "type": "lane",
+      "category": "bpmn2",
+      "fill": "#f7faf1",
+      "headerFill": "#4d7e11"
+
+    }
+  ],
+  "nodes": [
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "user",
+      "x": 280,
+      "y": 35,
+      "width": 100,
+      "height": 80,
+      "label": "Chooses wash",
+      "group": "_c529c195-690b-472a-9bde-fa2776a44e6b",
+      "id": "_39f37b25-448f-4633-95e8-f252183be3f4",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "user",
+      "x": 605,
+      "y": 35,
+      "width": 100,
+      "height": 80,
+      "label": "Pays 8",
+      "group": "_c529c195-690b-472a-9bde-fa2776a44e6b",
+      "id": "_e02f3c76-11ef-4c94-9f50-1b494861be71",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "user",
+      "x": 120,
+      "y": 35,
+      "width": 100,
+      "height": 80,
+      "label": "Pulls car up to car wash",
+      "group": "_c529c195-690b-472a-9bde-fa2776a44e6b",
+      "id": "_1e3d18ca-0824-4207-9d00-ec41e3b603e6",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "user",
+      "x": 375,
+      "y": 250,
+      "width": 100,
+      "height": 80,
+      "label": "Pays 15",
+      "group": "_c529c195-690b-472a-9bde-fa2776a44e6b",
+      "id": "_fb7c084b-423f-4479-adba-195e535103c6",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "user",
+      "x": 940,
+      "y": 145,
+      "width": 100,
+      "height": 80,
+      "label": "Drives away",
+      "group": "_c529c195-690b-472a-9bde-fa2776a44e6b",
+      "id": "_1ebf8cba-a683-41d9-9d56-935983e038ad",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "service",
+      "x": 790,
+      "y": 30,
+      "width": 100,
+      "height": 80,
+      "label": "Wheel Clean",
+      "group": "_bf50614d-40a6-450e-a101-85c440f9bde6",
+      "id": "_2e9c0dcb-90f7-485b-941f-51ba317ea65c",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "service",
+      "x": 435,
+      "y": 30,
+      "width": 100,
+      "height": 80,
+      "label": "Soft Cloth Wash",
+      "group": "_bf50614d-40a6-450e-a101-85c440f9bde6",
+      "id": "_0ef29172-273e-4f01-a69a-67b1e07f058a",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "service",
+      "x": 940,
+      "y": 30,
+      "width": 100,
+      "height": 80,
+      "label": "Dry",
+      "group": "_bf50614d-40a6-450e-a101-85c440f9bde6",
+      "id": "_a7fb2a39-2057-446d-affc-04dd77fe8fba",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "service",
+      "x": 780,
+      "y": 240,
+      "width": 100,
+      "height": 80,
+      "label": "Clear Coat Protection",
+      "group": "_bf50614d-40a6-450e-a101-85c440f9bde6",
+      "id": "_838fd814-f7c8-4885-9987-e2f5ee0bd904",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "service",
+      "x": 940,
+      "y": 240,
+      "width": 100,
+      "height": 80,
+      "label": "Wheel Luster Wheel Clean",
+      "group": "_bf50614d-40a6-450e-a101-85c440f9bde6",
+      "id": "_bef24fa3-8990-4e0a-b3db-7865a63f4566",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "task",
+      "category": "bpmn2",
+      "taskType": "service",
+      "x": 580,
+      "y": 240,
+      "width": 100,
+      "height": 80,
+      "label": "Double Polish",
+      "group": "_bf50614d-40a6-450e-a101-85c440f9bde6",
+      "id": "_84c6c61a-844b-41eb-8dcd-a44f1200847c",
+      "fill": "#FFFFFF",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "gateway",
+      "category": "bpmn2",
+      "gatewayType": "exclusive",
+      "x": 460,
+      "y": 50,
+      "width": 50,
+      "height": 50,
+      "label": "Which wash program?",
+      "fill": "#ffc107",
+      "group": "_c529c195-690b-472a-9bde-fa2776a44e6b",
+      "id": "id-6bd3013b-8646-4137-ade7-499b31893131",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "gateway",
+      "category": "bpmn2",
+      "gatewayType": "exclusive",
+      "x": 605,
+      "y": 45,
+      "width": 50,
+      "height": 50,
+      "label": "Which wash program?",
+      "fill": "#ffc107",
+      "group": "_bf50614d-40a6-450e-a101-85c440f9bde6",
+      "id": "id-eb413d52-5649-47d4-9c0a-1fe4b0fdbf98",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "end-event",
+      "category": "bpmn2",
+      "x": 1040,
+      "y": 55,
+      "width": 40,
+      "height": 40,
+      "label": "",
+      "fill": "#f44336",
+      "group": "_c529c195-690b-472a-9bde-fa2776a44e6b",
+      "id": "id-d4d348ba-02b9-4f83-8106-257e0e1a5500",
+      "outline": "#000000",
+      "color": "#000000"
+    },
+    {
+      "type": "start-event",
+      "category": "bpmn2",
+      "x": 50,
+      "y": 165,
+      "width": 40,
+      "height": 40,
+      "label": "",
+      "fill": "#4caf50",
+      "group": "_c529c195-690b-472a-9bde-fa2776a44e6b",
+      "id": "id-add7903c-fc54-40ce-9fa5-d7f5894d584c",
+      "outline": "#000000",
+      "color": "#000000"
+    }
+  ],
+  "edges": [
+    {
+      "source": "id-add7903c-fc54-40ce-9fa5-d7f5894d584c",
+      "target": "_1e3d18ca-0824-4207-9d00-ec41e3b603e6",
+      "data": {
+        "type": "sequence"
+      }
+    },
+    {
+      "source": "_1e3d18ca-0824-4207-9d00-ec41e3b603e6",
+      "target": "_39f37b25-448f-4633-95e8-f252183be3f4",
+      "data": {
+        "type": "sequence"
+      }
+    },
+    {
+      "source": "_39f37b25-448f-4633-95e8-f252183be3f4",
+      "target": "id-6bd3013b-8646-4137-ade7-499b31893131",
+      "data": {
+        "type": "sequence"
+      }
+    },
+    {
+      "source": "id-6bd3013b-8646-4137-ade7-499b31893131",
+      "target": "_e02f3c76-11ef-4c94-9f50-1b494861be71",
+      "data": {
+        "type": "sequence",
+        "label": "Eco"
+      }
+    },
+    {
+      "source": "id-6bd3013b-8646-4137-ade7-499b31893131",
+      "target": "_fb7c084b-423f-4479-adba-195e535103c6",
+      "data": {
+        "type": "sequence",
+        "label": "Polish Plus"
+      }
+    },
+    {
+      "source": "_1ebf8cba-a683-41d9-9d56-935983e038ad",
+      "target": "id-d4d348ba-02b9-4f83-8106-257e0e1a5500",
+      "data": {
+        "type": "sequence"
+      }
+    },
+    {
+      "source": "_a7fb2a39-2057-446d-affc-04dd77fe8fba",
+      "target": "_1ebf8cba-a683-41d9-9d56-935983e038ad",
+      "data": {
+        "type": "message"
+      }
+    },
+    {
+      "source": "_fb7c084b-423f-4479-adba-195e535103c6",
+      "target": "_0ef29172-273e-4f01-a69a-67b1e07f058a",
+      "data": {
+        "type": "message"
+      }
+    },
+    {
+      "source": "id-eb413d52-5649-47d4-9c0a-1fe4b0fdbf98",
+      "target": "_84c6c61a-844b-41eb-8dcd-a44f1200847c",
+      "data": {
+        "type": "sequence",
+        "label": "Polish Plus"
+      }
+    },
+    {
+      "source": "_e02f3c76-11ef-4c94-9f50-1b494861be71",
+      "target": "_0ef29172-273e-4f01-a69a-67b1e07f058a",
+      "data": {
+        "type": "message"
+      }
+    },
+    {
+      "source": "_838fd814-f7c8-4885-9987-e2f5ee0bd904",
+      "target": "_bef24fa3-8990-4e0a-b3db-7865a63f4566",
+      "data": {
+        "type": "sequence"
+      }
+    },
+    {
+      "source": "_bef24fa3-8990-4e0a-b3db-7865a63f4566",
+      "target": "_a7fb2a39-2057-446d-affc-04dd77fe8fba",
+      "data": {
+        "type": "sequence"
+      }
+    },
+    {
+      "source": "_2e9c0dcb-90f7-485b-941f-51ba317ea65c",
+      "target": "_a7fb2a39-2057-446d-affc-04dd77fe8fba",
+      "data": {
+        "type": "sequence"
+      }
+    },
+    {
+      "source": "_0ef29172-273e-4f01-a69a-67b1e07f058a",
+      "target": "id-eb413d52-5649-47d4-9c0a-1fe4b0fdbf98",
+      "data": {
+        "type": "sequence"
+      }
+    },
+    {
+      "source": "id-eb413d52-5649-47d4-9c0a-1fe4b0fdbf98",
+      "target": "_2e9c0dcb-90f7-485b-941f-51ba317ea65c",
+      "data": {
+        "type": "sequence",
+        "label": "ECO"
+      }
+    },
+    {
+      "source": "_84c6c61a-844b-41eb-8dcd-a44f1200847c",
+      "target": "_838fd814-f7c8-4885-9987-e2f5ee0bd904",
+      "data": {
+        "type": "sequence"
+      }
+    }
+  ]
+}
