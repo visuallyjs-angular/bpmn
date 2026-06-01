@@ -1,0 +1,9 @@
+
+@import "@visuallyjs/browser-ui/css/visuallyjs.css";
+@import "./bpmn.css";
+
+body {
+    width:100vw;
+    height:100vh;
+    font-family:Tahoma, Verdana, sans-serif;
+}

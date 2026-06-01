@@ -1,0 +1,15 @@
+<div class="vjs-bpmn">
+	<div class="vjs-bpmn-palette">
+		<vjs-diagram-palette [showLabels]="true" [onVertexAdded]="onVertexAdded"/>
+	</div>
+  <div class="vjs-bpmn-canvas">
+    <vjs-diagram [options]="diagramOptions" [url]="url" [modelOptions]="modelOptions">
+      <vjs-controls></vjs-controls>
+      <vjs-export-controls [imageOptions]="{dimensions:imageDimensions}"></vjs-export-controls>
+    </vjs-diagram>
+  </div>
+  <div class="vjs-bpmn-rhs">
+    <app-inspector></app-inspector>
+    <vjs-miniview class="vjs-bpmn-miniview"></vjs-miniview>
+  </div>
+</div>
