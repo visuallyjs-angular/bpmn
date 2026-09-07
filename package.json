@@ -1,6 +1,6 @@
 {
   "name": "visuallyjs-bpmn-angular",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -29,8 +29,8 @@
     "@angular/forms": "^21.0.0",
     "@angular/platform-browser": "^21.0.0",
     "@angular/router": "^21.0.0",
-    "@visuallyjs/browser-ui-angular": "^1.2.4",
-    "@visuallyjs/bpmn": "^1.2.4",
+    "@visuallyjs/browser-ui-angular": "^1.2.5",
+    "@visuallyjs/bpmn": "^1.2.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
